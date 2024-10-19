@@ -170,27 +170,11 @@ h2 {
     background-color: #e5e7eb;
     height: 340px;
     display: flex;
-    flex-direction: column;  /* Stack quote and name vertically */
-    align-items: center;     /* Center horizontally */
-    justify-content: center; /* Center everything vertically */
-    position: relative;
+    align-items: center;
+    justify-content: center;
+    word-wrap: break-word;
 }
 
 .quote {
-    max-width: 700px;         /* Limit the width of the text */
-    text-align: center;       /* Center the text */
-    word-wrap: break-word;    /* Break long words */
-    display: block; 
-    font-size: 30px;
-    color: #1F2937;
-}
-
-.names {
-    margin-top: 10px;        /* Add space between the quote and the name */
-    align-self: flex-end;    /* Align the name to the right */
-    margin-right: 30px;      /* Slightly indent to the right */
-    font-size: 18px;
-    color: #1F2937;
-    font-weight: 600;
-    margin-right: 350px;
+    
 }
